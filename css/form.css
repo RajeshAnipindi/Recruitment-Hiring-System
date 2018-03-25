@@ -1,0 +1,127 @@
+* {
+  margin:0;
+  padding:0;
+  font:15px 'Montserrat',sans-serif ;
+   -webkit-font-smoothing: antialiased;
+           font-smoothing: antialiased;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box{
+  margin-top: 70px;
+  float: left;
+  width:50%;
+  height:500px;
+  background-color: transparent;
+}
+.box1{
+  margin-top: 70px;
+  float: left;
+  width:50%;
+  height:500px;
+  background-color: transparent;
+}
+form {
+  position:relative;
+  width:280px;
+  height:330px;
+  opacity: 0.9;
+  text-align:center;
+  background:#ecf0f1;
+  border-top: 5px solid #17A199;
+  padding:40px;
+  -webkit-border-radius:6px;
+     -moz-border-radius:6px;
+          border-radius:6px;
+  -webkit-box-shadow: 0px 1px 0px #ad392d, inset 0px 1px 0px white;
+     -moz-box-shadow: 0px 1px 0px #ad392d, inset 0px 1px 0px white;
+          box-shadow: 0px 1px 0px #ad392d, inset 0px 1px 0px white;
+}
+form:hover{
+  opacity: 1.0;
+}
+h4 {
+  font:2em 'Montserrat',sans-serif;
+  font-weight:300;
+  margin-bottom:25px;
+  color:#7f8c8d;
+  text-shadow:1px 1px 0px white;
+}
+input {
+  display:block;
+  width:280px;
+  padding:10px;
+  -webkit-border-radius:6px;
+     -moz-border-radius:6px;
+          border-radius:6px;
+  border:0;
+  margin-bottom:10px;
+  color:#7f8c8d;
+  outline:none;
+  font-weight:600;
+}
+input:focus {
+  background:#fafafa;
+}
+select{
+display:block;
+  width:280px;
+  padding:10px;
+  -webkit-border-radius:6px;
+     -moz-border-radius:6px;
+          border-radius:6px;
+  border:0;
+  margin-bottom:10px;
+  color:#7f8c8d;
+  outline:none;
+  font-weight:600;
+
+}
+::-webkit-input-placeholder {
+  color: #95a5a6;
+  font-weight:300;
+}
+
+:-moz-placeholder {
+  color: #95a5a6;
+  font-weight:300;
+}
+
+::-moz-placeholder { 
+  color: #95a5a6;
+  font-weight:300;
+}
+
+:-ms-input-placeholder {  
+  color: #95a5a6;
+  font-weight:300;
+}
+
+.sub {
+  position:relative;
+  width:280px;
+  margin-top:20px;
+  background:#17A199;
+  color:#fff;
+  font-weight:400;
+  text-shadow:1px 1px 0px #2d7baf;
+  box-shadow:0px 3px 0px #2d7baf;
+}
+.sub:hover {
+  background:#1A147E;
+  cursor:pointer;
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.sub:active {
+  box-shadow:none;
+  top:4px;
+  -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
